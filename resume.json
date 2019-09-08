@@ -1,0 +1,198 @@
+{
+  "basics": {
+    "name": "Magnus Altgård",
+    "label": "Software Developer",
+    "picture": "",
+    "email": "magnus@altyard.solutions",
+    "phone": "+46730470281",
+    "website": "https://altyard.solutions",
+    "summary": "Magnus is a software developer who runs his own consultancy firm, primarily he builds stuff using .NET and C# on the backend side and when it comes to web he has used several of the modern javascript frameworks such as React and Vue. He is curious by nature and have strong passion for software and electronics and when he is not learning something new you may find him constructing a mechanical keyboard",
+    "location": {
+      "address": "Atterbomsvägen 38",
+      "postalCode": "112 58",
+      "city": "Stockholm",
+      "countryCode": "SE",
+      "region": "Stockholm"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "magnus-altgard",
+        "url": "https://www.linkedin.com/in/magnus-altgard/"
+      },
+      {
+        "network": "GitHub",
+        "username": "MagnusAlt",
+        "url": "https://github.com/Magnusalt"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Atlas Copco Industrial Technique",
+      "position": "Software Developer (consultant)",
+      "website": "https://atlascopco.com",
+      "startDate": "2019-04-01",
+      "endDate": "2019-12-31",
+      "summary": "The first five month of this assignment I worked in a team doing data visualization, after that I was moved to the tool configuration team.",
+      "highlights": [
+        "Built a dashboard application with support for hosting custom developed widgets.",
+        "Started to introduce Docker to ease deployment",
+        "Started the development of a simulated assembly line, to be used a source of data for the visualizing application"
+      ]
+    },
+    {
+      "company": "Tele2",
+      "position": "Backend Developer (consultant)",
+      "website": "https://tele2.se",
+      "startDate": "2018-02-19",
+      "endDate": "2019-02-19",
+      "summary": "My first assignment as a freelance developer, I was part of the team building a completly new order handling system, capable of serving the web store and all physical stores.",
+      "highlights": [
+        "Launched an application built on the Service Fabric platform.",
+        "Built a framework for resilience to better cope with network issues.",
+        "Built a dependency injection solution for services running on Service Fabric."
+      ]
+    },
+    {
+      "company": "subcultours",
+      "position": "Tech lead",
+      "website": "https://subcultours.com",
+      "startDate": "2017-10-01",
+      "endDate": "2018-06-30",
+      "summary": "subcultours is a german start up company that connects travelers with local artists, together with the CEO I helped shaping the technical platform of the company.",
+      "highlights": [
+        "Built a proof of concept hosted on AWS.",
+        "Helped recruiting a team of developers."
+      ]
+    },
+    {
+      "company": "Atlas Copco Industrial Technique",
+      "position": "Cloud Developer",
+      "website": "https://atlascopco.com",
+      "startDate": "2017-04-01",
+      "endDate": "2017-09-30",
+      "summary": "As a member of the data driven service team, we started to look into the possibilities to migrate software into the cloud with the goal to collect and analyze data on a larger scale.",
+      "highlights": [
+        "Used previous knowledge from working with tool to make protocoll adapters to extract data from the tools.",
+        "Built a live data visualizer using React and TypeScript.",
+        "Introduced serverless data processing and was able to replace an expensive virtual machine in Azure reducing the cost to almost zero."
+      ]
+    },
+    {
+      "company": "Atlas Copco Industrial Technique",
+      "position": "Software Developer",
+      "website": "https://atlascopco.com",
+      "startDate": "2015-09-01",
+      "endDate": "2017-03-31",
+      "summary": "After a year as a consultant at Atlas Copco I was offered to be hired directly and I continued working in the team developing the configuration software.",
+      "highlights": [
+        "Implemented a licensing solution for both handling licenses and making sure that the software worked according to the license restrictions.",
+        "Traveled to several customers and made installations of the software.",
+        "Built a drag and drop interface for configuring the tools."
+      ]
+    },
+    {
+      "company": "ÅF",
+      "position": "Software Developer",
+      "website": "https://afconsult.com",
+      "startDate": "2014-09-01",
+      "endDate": "2015-08-31",
+      "summary": "As a consultant at ÅF I was given an assignment at Atlas Copco Industrial Technique, there I was part of a team building a configuration software for tools used in the assembling industry.",
+      "highlights": [
+        "Together with the team we migrated an exisisting SilverLight application to a desktop application using WPF",
+        "Set up a continuous integration pipeline using Teamcity.",
+        "Investigated the possibilities to build a direct tool interface."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Lund University faculty of engineering",
+      "area": "Nano science, highfrequency- and nano- electronics",
+      "studyType": "Master",
+      "startDate": "2009-09-01",
+      "endDate": "2014-06-15"
+    },
+    {
+      "institution": "Malmö University",
+      "area": "Programming with C#",
+      "studyType": "Stand alone course",
+      "startDate": "2013-06-01",
+      "endDate": "2013-08-15"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Advanced",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Webpack",
+        "React",
+        "Vue",
+        "Vanilla"
+      ]
+    },
+    {
+      "name": ".NET",
+      "level": "Advanced",
+      "keywords": [
+        ".NET Core",
+        ".NET Framework",
+        "WPF",
+        "ASP.NET",
+        "C#"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "Intermediate",
+      "keywords": [
+        "Azure",
+        "AWS",
+        "Docker",
+        "CI/CD"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Swedish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Second language"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Technology",
+      "keywords": [
+        "Computers",
+        "Games",
+        "Mechanical Keyboards",
+        "Programming"
+      ]
+    },
+    {
+      "name": "Outdoors",
+      "keywords": [
+        "Hiking",
+        "Trail running",
+        "Fishing"
+      ]
+    },
+    {
+      "name": "Crafting",
+      "keywords": [
+        "Woodworking",
+        "Beer brewing",
+        "Cooking"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,578 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Magnus Altgård</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Magnus Altgård
+					</h1>
+					<h2>
+						Software Developer
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email">magnus@altyard.solutions</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">+46730470281</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href="https://altyard.solutions">https://altyard.solutions</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>Magnus is a software developer who runs his own consultancy firm, primarily he builds stuff using .NET and C# on the backend side and when it comes to web he has used several of the modern javascript frameworks such as React and Vue. He is curious by nature and have strong passion for software and electronics and when he is not learning something new you may find him constructing a mechanical keyboard</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						LinkedIn
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://www.linkedin.com/in/magnus-altgard/">magnus-altgard</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						GitHub
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://github.com/Magnusalt">MagnusAlt</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Atlas Copco Industrial Technique</span>
+					<span class="date">
+						2019-04-01 — 2019-12-31
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://atlascopco.com">https://atlascopco.com</a>
+				</div>
+				<div class="position">
+					Software Developer (consultant)
+				</div>
+				<div class="summary">
+					<p>The first five month of this assignment I worked in a team doing data visualization, after that I was moved to the tool configuration team.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Built a dashboard application with support for hosting custom developed widgets.</li>
+					<li class="bullet">Started to introduce Docker to ease deployment</li>
+					<li class="bullet">Started the development of a simulated assembly line, to be used a source of data for the visualizing application</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Tele2</span>
+					<span class="date">
+						2018-02-19 — 2019-02-19
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://tele2.se">https://tele2.se</a>
+				</div>
+				<div class="position">
+					Backend Developer (consultant)
+				</div>
+				<div class="summary">
+					<p>My first assignment as a freelance developer, I was part of the team building a completly new order handling system, capable of serving the web store and all physical stores.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Launched an application built on the Service Fabric platform.</li>
+					<li class="bullet">Built a framework for resilience to better cope with network issues.</li>
+					<li class="bullet">Built a dependency injection solution for services running on Service Fabric.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>subcultours</span>
+					<span class="date">
+						2017-10-01 — 2018-06-30
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://subcultours.com">https://subcultours.com</a>
+				</div>
+				<div class="position">
+					Tech lead
+				</div>
+				<div class="summary">
+					<p>subcultours is a german start up company that connects travelers with local artists, together with the CEO I helped shaping the technical platform of the company.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Built a proof of concept hosted on AWS.</li>
+					<li class="bullet">Helped recruiting a team of developers.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Atlas Copco Industrial Technique</span>
+					<span class="date">
+						2017-04-01 — 2017-09-30
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://atlascopco.com">https://atlascopco.com</a>
+				</div>
+				<div class="position">
+					Cloud Developer
+				</div>
+				<div class="summary">
+					<p>As a member of the data driven service team, we started to look into the possibilities to migrate software into the cloud with the goal to collect and analyze data on a larger scale.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Used previous knowledge from working with tool to make protocoll adapters to extract data from the tools.</li>
+					<li class="bullet">Built a live data visualizer using React and TypeScript.</li>
+					<li class="bullet">Introduced serverless data processing and was able to replace an expensive virtual machine in Azure reducing the cost to almost zero.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Atlas Copco Industrial Technique</span>
+					<span class="date">
+						2015-09-01 — 2017-03-31
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://atlascopco.com">https://atlascopco.com</a>
+				</div>
+				<div class="position">
+					Software Developer
+				</div>
+				<div class="summary">
+					<p>After a year as a consultant at Atlas Copco I was offered to be hired directly and I continued working in the team developing the configuration software.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Implemented a licensing solution for both handling licenses and making sure that the software worked according to the license restrictions.</li>
+					<li class="bullet">Traveled to several customers and made installations of the software.</li>
+					<li class="bullet">Built a drag and drop interface for configuring the tools.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>ÅF</span>
+					<span class="date">
+						2014-09-01 — 2015-08-31
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://afconsult.com">https://afconsult.com</a>
+				</div>
+				<div class="position">
+					Software Developer
+				</div>
+				<div class="summary">
+					<p>As a consultant at ÅF I was given an assignment at Atlas Copco Industrial Technique, there I was part of a team building a configuration software for tools used in the assembling industry.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Together with the team we migrated an exisisting SilverLight application to a desktop application using WPF</li>
+					<li class="bullet">Set up a continuous integration pipeline using Teamcity.</li>
+					<li class="bullet">Investigated the possibilities to build a direct tool interface.</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Lund University faculty of engineering</span>
+					<span class="date">
+						2009-09-01 — 2014-06-15
+					</span>
+				</h4>
+				<div class="area">
+					Nano science, highfrequency- and nano- electronics
+				</div>
+				<div class="studyType">
+					Master
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Malmö University</span>
+					<span class="date">
+						2013-06-01 — 2013-08-15
+					</span>
+				</h4>
+				<div class="area">
+					Programming with C#
+				</div>
+				<div class="studyType">
+					Stand alone course
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Web Development</h4>
+				</div>
+				<ul class="keywords">
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>Javascript</li>
+					<li>Webpack</li>
+					<li>React</li>
+					<li>Vue</li>
+					<li>Vanilla</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>.NET</h4>
+				</div>
+				<ul class="keywords">
+					<li>.NET Core</li>
+					<li>.NET Framework</li>
+					<li>WPF</li>
+					<li>ASP.NET</li>
+					<li>C#</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>DevOps</h4>
+				</div>
+				<ul class="keywords">
+					<li>Azure</li>
+					<li>AWS</li>
+					<li>Docker</li>
+					<li>CI/CD</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="languages" class="row">
+		<aside class="col-sm-3">
+			<h3>Languages</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Swedish</strong>
+				</div>
+				<div class="fluency">
+					Native speaker
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>English</strong>
+				</div>
+				<div class="fluency">
+					Second language
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="interests" class="row">
+		<aside class="col-sm-3">
+			<h3>Interests</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Technology</h4>
+				</div>
+				<ul class="keywords">
+					<li>Computers</li>
+					<li>Games</li>
+					<li>Mechanical Keyboards</li>
+					<li>Programming</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Outdoors</h4>
+				</div>
+				<ul class="keywords">
+					<li>Hiking</li>
+					<li>Trail running</li>
+					<li>Fishing</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Crafting</h4>
+				</div>
+				<ul class="keywords">
+					<li>Woodworking</li>
+					<li>Beer brewing</li>
+					<li>Cooking</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+
+	</div>
+	
+	</body>
+</html>
